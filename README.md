@@ -1,5 +1,5 @@
 # likejs
-Simular função like do SQL no javascript
+Simular função LIKE do SQL no javascript
 
 1 - Adicionar ou importar a função dentro do arquivo like.js.
 
