@@ -6,22 +6,22 @@ Simular função like do SQL no javascript
 Exemplos:
 
 <code>
-  <pre>
-    let string = "banana, abacate, melão";
+<pre>
+let string = "banana, abacate, melão";
 
-    //Contém "banana"
-    string.like("*abacate*");
+//Contém "banana"
+string.like("*abacate*");
 
-    //Começa com "bana"
-    string.like("bana*");
+//Começa com "bana"
+string.like("bana*");
 
-    //Termina com "lão"
-    string.like("lão");
+//Termina com "lão"
+string.like("lão");
 
-    //Começa com "ban", comtém "bac" e termina com "lão"
-    string.like("ban*bac*lão");
+//Começa com "ban", comtém "bac" e termina com "lão"
+string.like("ban*bac*lão");
 
-    //Contém "bac" e "te" consecutivamente
-    string.like("*bac*te*");
-  </pre>
+//Contém "bac" e "te" consecutivamente
+string.like("*bac*te*");
+</pre>
 </code>
