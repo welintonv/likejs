@@ -4,19 +4,23 @@ Simular função like do SQL no javascript
 1 - Adicionar ou importar a função dentro do arquivo like.js.
 
 Exemplos:
-<code><pre>let string = "banana, abacate, melão";
+<pre>
+<code> 
+let string = "banana, abacate, melão";
 
 //Contém "banana"
 string.like("*abacate*");
 
-//Começa com "bana"
+//Começa com "bana";
 string.like("bana*");
 
-//Termina com "lão"
-string.like("lão");
+//Termina com "lão";
+string.like("*lão");
 
-//Começa com "ban", comtém "bac" e termina com "lão"
+//Começa com "ban", comtém "bac" e termina com "lão";
 string.like("ban*bac*lão");
 
-//Contém "bac" e "te" consecutivamente
-string.like("*bac*te*");</pre></code>
+//Contém "bac" e "te" consecutivamente;
+string.like("*bac*te*");
+</code>
+</pre>
