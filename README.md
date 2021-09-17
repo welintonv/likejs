@@ -1,9 +1,9 @@
 # likejs
-Simular função LIKE do SQL no javascript
+<b>Objetivo:</b> Simular função LIKE do SQL no javascript.
 
-1 - Adicionar ou importar a função dentro do arquivo like.js.
+<b>Primeiro importar o arquivo like.js.</b>
 
-Exemplos:
+<b>Casos de uso:</b>
 <pre>
 <code> 
 let string = "banana, abacate, melão";
