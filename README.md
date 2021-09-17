@@ -8,18 +8,18 @@ Exemplos:
 <code>
   let string = "banana, abacate, melão";
   
-  //Contém "banana"
+  //Contém "banana" </br>
   string.like("*abacate*");
   
-  //Começa com "bana"
+  //Começa com "bana" </br>
   string.like("bana*");
   
-  //Termina com "lão"
+  //Termina com "lão" </br>
   string.like("lão");
   
-  //Começa com "ban", comtém "bac" e termina com "lão"
+  //Começa com "ban", comtém "bac" e termina com "lão" </br>
   string.like("ban*bac*lão");
   
-  //Contém "bac" e "te" consecutivamente
+  //Contém "bac" e "te" consecutivamente </br>
   string.like("*bac*te*");
 </code>
