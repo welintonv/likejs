@@ -5,9 +5,7 @@ Simular função like do SQL no javascript
 
 Exemplos:
 
-<code>
-<pre>
-let string = "banana, abacate, melão";
+<code><pre>let string = "banana, abacate, melão";
 
 //Contém "banana"
 string.like("*abacate*");
@@ -22,6 +20,4 @@ string.like("lão");
 string.like("ban*bac*lão");
 
 //Contém "bac" e "te" consecutivamente
-string.like("*bac*te*");
-</pre>
-</code>
+string.like("*bac*te*");</pre></code>
