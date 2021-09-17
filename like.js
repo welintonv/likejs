@@ -24,9 +24,10 @@ String.prototype.like = function(s){
     if(arr.length == 1) return true;
 
     let i = 1;
-    for (let i2 = 0; i2 < texto.length && i < arr.length; i2 = texto.indexOf(str) + 2) {
+    for (let i2 = 0; i2 < texto.length && i < arr.length; i2++) {
         str = arr[i];
         i++;
+        i2 = texto.indexOf(str) + 2;
         if(i2 === 1) return false;
     }
 
