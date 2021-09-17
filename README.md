@@ -8,7 +8,7 @@
 <code> 
 let string = "banana, abacate, melão";
 
-//Contém "banana"
+//Contém "abacate"
 string.like("*abacate*");
 
 //Começa com "bana";
